@@ -36,7 +36,7 @@ public class Lab01FunctionsArray {
         System.out.print("Duplicate Elements are : ");
         for (int i = 0; i < temp.length; i++) {
             if (temp[i] == visited) {
-                System.out.print(arr[i] + "  " + "at index : " + i);
+                System.out.println(arr[i] + "  " + "at index : " + i);
             }
         }
     }
